@@ -3,4 +3,6 @@
 
 ## 使用
 1、配置vps的veid和api_key
-(!)[]
+()![https://raw.githubusercontent.com/HuiiChong/alfred-bwg/master/1.png]
+2、输入bwg命令
+()![https://raw.githubusercontent.com/HuiiChong/alfred-bwg/master/2.png]
