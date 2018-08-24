@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>net.deanishe.alfred.awgo.demo-fuzzy</string>
+	<key>connections</key>
+	<dict>
+		<key>D61073F1-262D-482D-800D-A788FD7B9F69</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7C574F95-18F7-4AA2-B8EF-812745DB293D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>921C896B-DC08-4B14-9424-B5CEF32C5C37</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Dean Jackson</string>
+	<key>description</key>
+	<string>Filter folders in ~/</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>AwGo Demo: Fuzzy Search</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>home</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading folders…</string>
+				<key>script</key>
+				<string>./fuzzy "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>All subdirectories of your home directory</string>
+				<key>title</key>
+				<string>Filter folders in ~/</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>D61073F1-262D-482D-800D-A788FD7B9F69</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>7C574F95-18F7-4AA2-B8EF-812745DB293D</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>path</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.browseinalfred</string>
+			<key>uid</key>
+			<string>921C896B-DC08-4B14-9424-B5CEF32C5C37</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>AwGo: Fuzzy Sort Demo
+=====================
+
+Fuzzy-filter subdirectories of ~/.
+
+Demonstrates basic usage of fuzzy filtering using the API built into Workflow.</string>
+	<key>uidata</key>
+	<dict>
+		<key>7C574F95-18F7-4AA2-B8EF-812745DB293D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>921C896B-DC08-4B14-9424-B5CEF32C5C37</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>190</integer>
+		</dict>
+		<key>D61073F1-262D-482D-800D-A788FD7B9F69</key>
+		<dict>
+			<key>note</key>
+			<string>Fuzzy filter the directories in ~/
+
+The alternate actions are configured in the Script Filter code/output (which is why you can't see the alternate subtitle text in the connection configuration).</string>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+	</dict>
+	<key>version</key>
+	<string>0.1</string>
+	<key>webaddress</key>
+	<string>https://godoc.org/github.com/deanishe/awgo</string>
+</dict>
+</plist>

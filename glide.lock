@@ -1,0 +1,18 @@
+hash: fc8626c81fdf444c8906b81461db55205991deda5c04ea164761c4d06e8f36e8
+updated: 2018-08-23T15:15:35.732654+08:00
+imports:
+- name: github.com/deanishe/awgo
+  version: fda4e59dbe6936fed9f4864b8f45cd18ad2c933c
+  subpackages:
+  - fuzzy
+  - util
+- name: github.com/json-iterator/go
+  version: 1624edc4454b8682399def8740d46db5e4362ba4
+- name: github.com/valyala/fasthttp
+  version: e5f51c11919d4f66400334047b897ef0a94c6f3c
+- name: golang.org/x/text
+  version: 6e3c4e7365ddcc329f090f96e4348398f6310088
+  subpackages:
+  - transform
+  - unicode/norm
+testImports: []
